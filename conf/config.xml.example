@@ -1,0 +1,12 @@
+<config>
+  <tsds user="foo" password="bar" url="https://netsage-archive.grnoc.iu.edu/tsds/" />
+  <elasticsearch host="elastic.foo.com" port="9200" />
+  <aggregate>
+    <key>src_organization</key>
+    <key>dst_organization</key>
+    <key>src_asn</key>
+    <key>dst_asn</key>
+    <key>protocol</key>
+  </aggregate>
+</config>
+
