@@ -1,1 +1,1 @@
-#0 1 * * * perl /usr/bin/aggregate-flow-importer.pl --config /etc/netsage/aggregate-flow-importer/config.xml
+#0 1 * * * netsage perl /usr/bin/aggregate-flow-importer.pl --config /etc/netsage/aggregate-flow-importer/config.xml > /dev/null

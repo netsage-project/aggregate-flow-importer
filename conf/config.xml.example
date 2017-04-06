@@ -7,6 +7,12 @@
     <key>src_asn</key>
     <key>dst_asn</key>
     <key>protocol</key>
+    <key>src_country_name</key>
+    <key>dst_country_name</key>
+    
+    <!-- example of doing pairs, comma separated fields -->
+    <key>src_country_name,dst_country_name</key>
+
   </aggregate>
 </config>
 
